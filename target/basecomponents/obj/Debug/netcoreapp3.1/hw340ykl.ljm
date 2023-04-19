@@ -1,0 +1,12 @@
+obj\Debug\netcoreapp3.1\.NETCoreApp,Version=v3.1.AssemblyAttributes.cs
+obj\Debug\netcoreapp3.1\basecomponentsGlobalFunctions\basecomponentsGlobalFunctions.webmap.cs
+obj\Debug\netcoreapp3.1\dw_basedw\dw_basedw.0.g.webmap.cs
+obj\Debug\netcoreapp3.1\dw_basedw\dw_basedw.webmap.cs
+obj\Debug\netcoreapp3.1\dw_basedw\dw_basedw_Layout.webmap.cs
+obj\Debug\netcoreapp3.1\dw_showallbase\dw_showallbase.0.g.webmap.cs
+obj\Debug\netcoreapp3.1\dw_showallbase\dw_showallbase.webmap.cs
+obj\Debug\netcoreapp3.1\dw_showallbase\dw_showallbase_Layout.webmap.cs
+obj\Debug\netcoreapp3.1\Properties\AssemblyInfo.webmap.cs
+obj\Debug\netcoreapp3.1\w_basewindow\w_basewindow.0.g.webmap.cs
+obj\Debug\netcoreapp3.1\w_basewindow\w_basewindow.webmap.cs
+obj\Debug\netcoreapp3.1\w_basewindow\w_basewindow_Layout.webmap.cs

@@ -1,0 +1,1 @@
+[{"File":"Program.cs","Tick":638174100216273902},{"File":"Properties\\AssemblyInfo.cs","Tick":638174100216423484},{"File":"RegistrationClass.cs","Tick":638174100216153470},{"File":"Startup.cs","Tick":638174100216363477},{"File":"Startup.EntryPoint.cs","Tick":638174100216303475}]
