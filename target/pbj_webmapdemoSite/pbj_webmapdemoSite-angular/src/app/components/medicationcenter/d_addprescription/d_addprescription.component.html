@@ -1,0 +1,22 @@
+<wm-freeform [model]="model" id="d_addprescription" class="medicationcenter_d_addprescription d_addprescription">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="t_1" [tabSequence]="0" [model]="model.t_1" class="t_1" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="t_2" [tabSequence]="0" [model]="model.t_2" class="t_2" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="patient" [tabSequence]="10" [model]="model.patient" class="patient" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="t_4" [tabSequence]="0" [model]="model.t_4" class="t_4" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="iid" [tabSequence]="32766" [model]="model.iid" class="iid" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="t_3" [tabSequence]="0" [model]="model.t_3" class="t_3" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="dose" [tabSequence]="30" [model]="model.dose" class="dose" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="t_5" [tabSequence]="0" [model]="model.t_5" class="t_5" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="medicine" [tabSequence]="40" [model]="model.medicine" class="medicine" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="socialsecurity" [tabSequence]="50" [model]="model.socialsecurity" class="socialsecurity" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

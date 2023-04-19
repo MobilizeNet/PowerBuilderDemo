@@ -1,0 +1,99 @@
+
+.medicationcenter_tb_tabbase .tb_tabbase {
+    
+    width: 566px;
+    height: 252px;
+    font-weight: normal;
+    font-family: Tahoma;
+    background-color: ButtonFace;
+}
+
+
+.medicationcenter_tb_tabbase .tabpage_add {
+    
+}
+
+
+.medicationcenter_tb_tabbase .tabpage_add {
+    
+    position: absolute;
+    left: 4px;
+    top: 28px;
+    width: 558px;
+    height: 220px;
+    background-color: ButtonFace;
+}
+
+
+.medicationcenter_tabpage_add .dw_add {
+    
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    width: 547px;
+    height: 199px;
+    border-style: solid;
+}
+
+
+
+
+
+.medicationcenter_tb_tabbase .tabpage_remove {
+    
+}
+
+
+.medicationcenter_tb_tabbase .tabpage_remove {
+    
+    position: absolute;
+    left: 4px;
+    top: 28px;
+    width: 558px;
+    height: 220px;
+    background-color: ButtonFace;
+}
+
+
+.medicationcenter_tabpage_remove .dw_remove {
+    
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    width: 547px;
+    height: 199px;
+    border-style: solid;
+}
+
+
+
+
+
+.medicationcenter_tb_tabbase .tabpage_search {
+    
+}
+
+
+.medicationcenter_tb_tabbase .tabpage_search {
+    
+    position: absolute;
+    left: 4px;
+    top: 28px;
+    width: 558px;
+    height: 220px;
+    background-color: ButtonFace;
+}
+
+
+.medicationcenter_tabpage_search .dw_search {
+    
+    position: absolute;
+    left: 6px;
+    top: 12px;
+    width: 547px;
+    height: 199px;
+}
+
+
+
+

@@ -1,0 +1,89 @@
+
+.pbj_webmapdemo_w_single_line_edit .w_single_line_edit {
+    
+    width: 402px;
+    height: 251px;
+    background-color: ButtonFace;
+}
+
+
+
+.pbj_webmapdemo_w_single_line_edit .cb_4 {
+    
+    position: absolute;
+    left: 27px;
+    top: 144px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_single_line_edit .cb_5 {
+    
+    position: absolute;
+    left: 139px;
+    top: 143px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_single_line_edit .cb_6 {
+    
+    position: absolute;
+    left: 249px;
+    top: 144px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_single_line_edit .cb_3 {
+    
+    position: absolute;
+    left: 248px;
+    top: 97px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_single_line_edit .cb_1 {
+    
+    position: absolute;
+    left: 26px;
+    top: 97px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_single_line_edit .sle_1 {
+    
+    position: absolute;
+    left: 33px;
+    top: 32px;
+    width: 300px;
+    height: 30px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    border-style: solid;
+}
+
+

@@ -1,0 +1,22 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_shareddatawindow" class="notifycurrentcontrol_w_shareddatawindow">
+        <ng-template let-model>
+            <div class="w_shareddatawindow">
+                <wm-static-text id="st_3" [model]="model.st_3" class="st_3"></wm-static-text>
+                <wm-static-text id="st_2" [model]="model.st_2" class="st_2"></wm-static-text>
+                <wm-static-text id="st_1" [model]="model.st_1" class="st_1"></wm-static-text>
+                <wm-command-button id="cb_2" [model]="model.cb_2" class="cb_2"></wm-command-button>
+                <wm-command-button id="cb_1" [model]="model.cb_1" class="cb_1"></wm-command-button>
+                <wm-data-manager-control id="dw_3" [model]="model.dw_3" class="dw_3">
+                    
+                </wm-data-manager-control>
+                <wm-data-manager-control id="dw_2" [model]="model.dw_2" class="dw_2">
+                    
+                </wm-data-manager-control>
+                <wm-data-manager-control id="dw_1" [model]="model.dw_1" class="dw_1">
+                    
+                </wm-data-manager-control>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

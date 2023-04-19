@@ -1,0 +1,21 @@
+<wm-grid [model]="model" id="dw_dddwsource" [headerTemplateDictionary]="headerTemplates" [columnsTemplateDictionary]="columnTemplates" class="multicontroldemo_dw_dddwsource dw_dddwsource">
+    	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="type_value_t" [tabSequence]="0" [model]="model.type_value_t" class="type_value_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+
+    <div wmRow> 
+			<ng-template #column let-context="context">
+    <wm-dw-column id="type_name" [tabSequence]="20" [model]="model.type_name" class="type_name" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="type_desc" [tabSequence]="30" [model]="model.type_desc" class="type_desc" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="type_value" [tabSequence]="40" [model]="model.type_value" class="type_value" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+  </div>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-grid>

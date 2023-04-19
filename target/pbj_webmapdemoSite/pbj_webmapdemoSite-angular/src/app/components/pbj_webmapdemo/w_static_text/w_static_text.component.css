@@ -1,0 +1,76 @@
+
+.pbj_webmapdemo_w_static_text .w_static_text {
+    
+    width: 346px;
+    height: 249px;
+    background-color: ButtonFace;
+}
+
+
+
+.pbj_webmapdemo_w_static_text .st_1 {
+    
+    position: absolute;
+    left: 49px;
+    top: 29px;
+    width: 228px;
+    height: 30px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.pbj_webmapdemo_w_static_text .cb_enable {
+    
+    position: absolute;
+    left: 50px;
+    top: 151px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_static_text .cb_visible {
+    
+    position: absolute;
+    left: 195px;
+    top: 151px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_static_text .cb_text {
+    
+    position: absolute;
+    left: 195px;
+    top: 100px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_static_text .cb_showhide {
+    
+    position: absolute;
+    left: 50px;
+    top: 100px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+

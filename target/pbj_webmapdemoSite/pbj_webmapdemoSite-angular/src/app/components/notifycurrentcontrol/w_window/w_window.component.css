@@ -1,0 +1,35 @@
+
+.notifycurrentcontrol_w_window .w_window {
+    
+    width: 413px;
+    height: 318px;
+    background-color: ButtonFace;
+}
+
+
+.notifycurrentcontrol_w_window .st_1 {
+    
+    position: absolute;
+    left: 5px;
+    top: 259px;
+    width: 392px;
+    height: 16px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.notifycurrentcontrol_w_window .dw_1 {
+    
+    position: absolute;
+    left: 32px;
+    top: 25px;
+    width: 330px;
+    height: 217px;
+    border-style: solid;
+}
+
+

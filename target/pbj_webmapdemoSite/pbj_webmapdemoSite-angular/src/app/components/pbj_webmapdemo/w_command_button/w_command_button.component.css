@@ -1,0 +1,86 @@
+
+.pbj_webmapdemo_w_command_button .w_command_button {
+    
+    width: 440px;
+    height: 270px;
+    background-color: ButtonFace;
+}
+
+
+.pbj_webmapdemo_w_command_button .cb_1 {
+    
+    position: absolute;
+    left: 65px;
+    top: 122px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_command_button .cb_3 {
+    
+    position: absolute;
+    left: 287px;
+    top: 122px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_command_button .cb_6 {
+    
+    position: absolute;
+    left: 288px;
+    top: 169px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_command_button .cb_5 {
+    
+    position: absolute;
+    left: 178px;
+    top: 168px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_command_button .cb_4 {
+    
+    position: absolute;
+    left: 66px;
+    top: 169px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.pbj_webmapdemo_w_command_button .cb_0 {
+    
+    position: absolute;
+    left: 164px;
+    top: 44px;
+    width: 110px;
+    height: 34px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+

@@ -1,0 +1,31 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_dw_features" class="pbj_webmapdemo_w_dw_features">
+        <ng-template let-model>
+            <div class="w_dw_features">
+                <wm-radio-button id="rb_freeform" name="radio_gb_3" [model]="model.rb_freeform" class="rb_freeform"></wm-radio-button>
+                <wm-radio-button id="rb_grid" name="radio_gb_3" [model]="model.rb_grid" class="rb_grid"></wm-radio-button>
+                <wm-radio-button id="rb_4" name="radio_gb_2" [model]="model.rb_4" class="rb_4"></wm-radio-button>
+                <wm-radio-button id="rb_3" name="radio_gb_2" [model]="model.rb_3" class="rb_3"></wm-radio-button>
+                <wm-radio-button id="rb_2" name="radio_gb_1" [model]="model.rb_2" class="rb_2"></wm-radio-button>
+                <wm-radio-button id="rb_1" name="radio_gb_1" [model]="model.rb_1" class="rb_1"></wm-radio-button>
+                <wm-static-text id="st_4" [model]="model.st_4" class="st_4"></wm-static-text>
+                <wm-single-line-edit id="sle_1" [model]="model.sle_1" class="sle_1"></wm-single-line-edit>
+                <wm-command-button id="cb_6" [model]="model.cb_6" class="cb_6"></wm-command-button>
+                <wm-command-button id="cb_5" [model]="model.cb_5" class="cb_5"></wm-command-button>
+                <wm-command-button id="cb_4" [model]="model.cb_4" class="cb_4"></wm-command-button>
+                <wm-command-button id="cb_3" [model]="model.cb_3" class="cb_3"></wm-command-button>
+                <wm-command-button id="cb_2" [model]="model.cb_2" class="cb_2"></wm-command-button>
+                <wm-command-button id="cb_1" [model]="model.cb_1" class="cb_1"></wm-command-button>
+                <wm-data-manager-control id="dw_1" [model]="model.dw_1" class="dw_1">
+                    
+                </wm-data-manager-control>
+                <wm-group-box id="gb_1" [model]="model.gb_1" class="gb_1" [style.z-index]="-1" [dataManagerContext]="context">
+</wm-group-box>
+                <wm-group-box id="gb_2" [model]="model.gb_2" class="gb_2" [style.z-index]="-1" [dataManagerContext]="context">
+</wm-group-box>
+                <wm-group-box id="gb_3" [model]="model.gb_3" class="gb_3" [style.z-index]="-1" [dataManagerContext]="context">
+</wm-group-box>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

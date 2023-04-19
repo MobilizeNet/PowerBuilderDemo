@@ -1,0 +1,28 @@
+<wm-freeform [model]="model" id="dw_allcontrols_two" class="multicontroldemo_dw_allcontrols_two dw_allcontrols_two">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-dw-column id="prospect" [tabSequence]="80" [model]="model.prospect" class="prospect" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="password_t" [tabSequence]="0" [model]="model.password_t" class="password_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="department_t" [tabSequence]="0" [model]="model.department_t" class="department_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="full_name_t" [tabSequence]="0" [model]="model.full_name_t" class="full_name_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="full_name" [tabSequence]="70" [model]="model.full_name" class="full_name" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="password" [tabSequence]="20" [model]="model.password" class="password" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="department" [tabSequence]="50" [model]="model.department" class="department" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="domain" [tabSequence]="40" [model]="model.domain" class="domain" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="code_t" [tabSequence]="0" [model]="model.code_t" class="code_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="code" [tabSequence]="90" [model]="model.code" class="code" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-compute id="compute_full_info" [tabSequence]="0" [model]="model.compute_full_info" class="compute_full_info" [dataManagerContext]="context"></wm-dw-compute>
+			<wm-static-text id="revenuew_t" [tabSequence]="0" [model]="model.revenuew_t" class="revenuew_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="logo" [tabSequence]="60" [model]="model.logo" class="logo" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="last_meeting_t" [tabSequence]="0" [model]="model.last_meeting_t" class="last_meeting_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="revenuew" [tabSequence]="30" [model]="model.revenuew" class="revenuew" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="last_meeting" [tabSequence]="100" [model]="model.last_meeting" class="last_meeting" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

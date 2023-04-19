@@ -1,0 +1,31 @@
+<wm-freeform [model]="model" id="dw_allcontrols_one" class="multicontroldemo_dw_allcontrols_one dw_allcontrols_one">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="t_name" [tabSequence]="0" [model]="model.t_name" class="t_name" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="_name" [tabSequence]="10" [model]="model._name" class="_name" [dataManagerContext]="context"></wm-dw-column>
+			<wm-command-button id="b_change_state" [tabSequence]="0" [model]="model.b_change_state" class="b_change_state" [dataManagerContext]="context"></wm-command-button>
+			<wm-static-text id="t_hire_date" [tabSequence]="0" [model]="model.t_hire_date" class="t_hire_date" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="t_schedule" [tabSequence]="0" [model]="model.t_schedule" class="t_schedule" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="t_phone" [tabSequence]="0" [model]="model.t_phone" class="t_phone" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="t_gender" [tabSequence]="0" [model]="model.t_gender" class="t_gender" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="t_type" [tabSequence]="0" [model]="model.t_type" class="t_type" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="t_social_number" [tabSequence]="0" [model]="model.t_social_number" class="t_social_number" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="gender" [tabSequence]="40" [model]="model.gender" class="gender" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="type" [tabSequence]="30" [model]="model.type" class="type" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-compute id="compute_percentage" [tabSequence]="0" [model]="model.compute_percentage" class="compute_percentage" [dataManagerContext]="context"></wm-dw-compute>
+			<wm-dw-column id="active" [tabSequence]="20" [model]="model.active" class="active" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="account" [tabSequence]="50" [model]="model.account" class="account" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="social_number" [tabSequence]="60" [model]="model.social_number" class="social_number" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="phone" [tabSequence]="70" [model]="model.phone" class="phone" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="hire_date" [tabSequence]="80" [model]="model.hire_date" class="hire_date" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="schedule" [tabSequence]="90" [model]="model.schedule" class="schedule" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="dist_code" [tabSequence]="100" [model]="model.dist_code" class="dist_code" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

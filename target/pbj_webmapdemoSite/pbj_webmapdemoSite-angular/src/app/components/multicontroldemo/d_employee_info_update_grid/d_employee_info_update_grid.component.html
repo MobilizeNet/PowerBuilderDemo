@@ -1,0 +1,69 @@
+<wm-grid [model]="model" id="d_employee_info_update_grid" [headerTemplateDictionary]="headerTemplates" [columnsTemplateDictionary]="columnTemplates" class="multicontroldemo_d_employee_info_update_grid d_employee_info_update_grid">
+    	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="level_t" [tabSequence]="0" [model]="model.level_t" class="level_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="tregistered_t" [tabSequence]="0" [model]="model.tregistered_t" class="tregistered_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="tname_t" [tabSequence]="0" [model]="model.tname_t" class="tname_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="tage_t" [tabSequence]="0" [model]="model.tage_t" class="tage_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="tdescription_t" [tabSequence]="0" [model]="model.tdescription_t" class="tdescription_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="tdepartment_t" [tabSequence]="0" [model]="model.tdepartment_t" class="tdepartment_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="tsalary_t" [tabSequence]="0" [model]="model.tsalary_t" class="tsalary_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="tcategory_t" [tabSequence]="0" [model]="model.tcategory_t" class="tcategory_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="thiredate_t" [tabSequence]="0" [model]="model.thiredate_t" class="thiredate_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="tlastlogin_t" [tabSequence]="0" [model]="model.tlastlogin_t" class="tlastlogin_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+
+    <div wmRow> 
+			<ng-template #column let-context="context">
+    <wm-dw-column id="level" [tabSequence]="10" [model]="model.level" class="level" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="tregistered" [tabSequence]="20" [model]="model.tregistered" class="tregistered" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="tname" [tabSequence]="30" [model]="model.tname" class="tname" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="tage" [tabSequence]="40" [model]="model.tage" class="tage" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="tdescription" [tabSequence]="50" [model]="model.tdescription" class="tdescription" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="tdepartment" [tabSequence]="60" [model]="model.tdepartment" class="tdepartment" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="tsalary" [tabSequence]="70" [model]="model.tsalary" class="tsalary" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="tcategory" [tabSequence]="80" [model]="model.tcategory" class="tcategory" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="thiredate" [tabSequence]="90" [model]="model.thiredate" class="thiredate" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="tlastlogin" [tabSequence]="100" [model]="model.tlastlogin" class="tlastlogin" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+  </div>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-grid>

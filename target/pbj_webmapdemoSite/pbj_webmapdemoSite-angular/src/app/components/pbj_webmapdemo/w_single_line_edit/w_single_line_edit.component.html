@@ -1,0 +1,15 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_single_line_edit" class="pbj_webmapdemo_w_single_line_edit">
+        <ng-template let-model>
+            <div class="w_single_line_edit">
+                
+                <wm-command-button id="cb_4" [model]="model.cb_4" class="cb_4"></wm-command-button>
+                <wm-command-button id="cb_5" [model]="model.cb_5" class="cb_5"></wm-command-button>
+                <wm-command-button id="cb_6" [model]="model.cb_6" class="cb_6"></wm-command-button>
+                <wm-command-button id="cb_3" [model]="model.cb_3" class="cb_3"></wm-command-button>
+                <wm-command-button id="cb_1" [model]="model.cb_1" class="cb_1"></wm-command-button>
+                <wm-single-line-edit id="sle_1" [model]="model.sle_1" class="sle_1"></wm-single-line-edit>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

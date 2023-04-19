@@ -1,0 +1,9 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_tabbase" class="medicationcenter_w_tabbase">
+        <ng-template let-model>
+            <div class="w_tabbase">
+                <app-tb-tabbase id="tab_1" [model]="model.tab_1" class="tab_1 wm-user-object"></app-tb-tabbase>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

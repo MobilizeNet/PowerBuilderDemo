@@ -1,0 +1,115 @@
+
+.notifycurrentcontrol_w_shareddatawindow .w_shareddatawindow {
+    
+    width: 558px;
+    height: 336px;
+    background-color: ButtonFace;
+}
+
+
+.notifycurrentcontrol_w_shareddatawindow .st_3 {
+    
+    position: absolute;
+    left: 365px;
+    top: 238px;
+    width: 172px;
+    height: 16px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.notifycurrentcontrol_w_shareddatawindow .st_2 {
+    
+    position: absolute;
+    left: 191px;
+    top: 238px;
+    width: 172px;
+    height: 16px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.notifycurrentcontrol_w_shareddatawindow .st_1 {
+    
+    position: absolute;
+    left: 7px;
+    top: 238px;
+    width: 172px;
+    height: 16px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.notifycurrentcontrol_w_shareddatawindow .cb_2 {
+    
+    position: absolute;
+    left: 106px;
+    top: 269px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.notifycurrentcontrol_w_shareddatawindow .cb_1 {
+    
+    position: absolute;
+    left: 16px;
+    top: 269px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.notifycurrentcontrol_w_shareddatawindow .dw_3 {
+    
+    position: absolute;
+    left: 364px;
+    top: 14px;
+    width: 174px;
+    height: 224px;
+    border-style: solid;
+}
+
+
+
+.notifycurrentcontrol_w_shareddatawindow .dw_2 {
+    
+    position: absolute;
+    left: 187px;
+    top: 14px;
+    width: 174px;
+    height: 224px;
+    border-style: solid;
+}
+
+
+
+.notifycurrentcontrol_w_shareddatawindow .dw_1 {
+    
+    position: absolute;
+    left: 8px;
+    top: 14px;
+    width: 174px;
+    height: 224px;
+    border-style: solid;
+}
+
+

@@ -1,0 +1,14 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_picture" class="pbj_webmapdemo_w_picture">
+        <ng-template let-model>
+            <div class="w_picture">
+                <wm-command-button id="cb_4" [model]="model.cb_4" class="cb_4"></wm-command-button>
+                <wm-command-button id="cb_5" [model]="model.cb_5" class="cb_5"></wm-command-button>
+                <wm-command-button id="cb_6" [model]="model.cb_6" class="cb_6"></wm-command-button>
+                <wm-command-button id="cb_3" [model]="model.cb_3" class="cb_3"></wm-command-button>
+                <wm-command-button id="cb_1" [model]="model.cb_1" class="cb_1"></wm-command-button>
+                <wm-picture id="p_1" [model]="model.p_1" class="p_1"></wm-picture>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

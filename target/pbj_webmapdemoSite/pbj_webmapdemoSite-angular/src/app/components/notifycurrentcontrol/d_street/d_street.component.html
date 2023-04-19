@@ -1,0 +1,16 @@
+<wm-freeform [model]="model" id="d_street" class="notifycurrentcontrol_d_street d_street">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="id_t" [tabSequence]="0" [model]="model.id_t" class="id_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="street_t" [tabSequence]="0" [model]="model.street_t" class="street_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="_id" [tabSequence]="10" [model]="model._id" class="_id" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="street" [tabSequence]="20" [model]="model.street" class="street" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

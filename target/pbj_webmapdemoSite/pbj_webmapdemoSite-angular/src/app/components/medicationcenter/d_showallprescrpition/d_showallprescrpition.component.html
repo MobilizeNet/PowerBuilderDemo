@@ -1,0 +1,41 @@
+<wm-grid [model]="model" id="d_showallprescrpition" [headerTemplateDictionary]="headerTemplates" [columnsTemplateDictionary]="columnTemplates" class="medicationcenter_d_showallprescrpition d_showallprescrpition">
+    	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="id_t" [tabSequence]="0" [model]="model.id_t" class="id_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="medicine_t" [tabSequence]="0" [model]="model.medicine_t" class="medicine_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="patient_t" [tabSequence]="0" [model]="model.patient_t" class="patient_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="dose_t" [tabSequence]="0" [model]="model.dose_t" class="dose_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="socialsecurity_t" [tabSequence]="0" [model]="model.socialsecurity_t" class="socialsecurity_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+
+    <div wmRow> 
+			<ng-template #column let-context="context">
+    <wm-dw-column id="iid" [tabSequence]="10" [model]="model.iid" class="iid" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="medicine" [tabSequence]="32766" [model]="model.medicine" class="medicine" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="patient" [tabSequence]="32766" [model]="model.patient" class="patient" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="dose" [tabSequence]="20" [model]="model.dose" class="dose" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="socialsecurity" [tabSequence]="30" [model]="model.socialsecurity" class="socialsecurity" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+  </div>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+			<wm-static-text id="t_1" [tabSequence]="0" [model]="model.t_1" class="t_1" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-compute id="compute_1" [tabSequence]="0" [model]="model.compute_1" class="compute_1" [dataManagerContext]="context"></wm-dw-compute>
+		</ng-template>
+</wm-grid>

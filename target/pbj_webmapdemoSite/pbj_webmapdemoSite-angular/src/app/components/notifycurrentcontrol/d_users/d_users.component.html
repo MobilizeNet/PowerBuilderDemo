@@ -1,0 +1,24 @@
+<wm-freeform [model]="model" id="d_users" class="notifycurrentcontrol_d_users d_users">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="id_t" [tabSequence]="0" [model]="model.id_t" class="id_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="_id" [tabSequence]="10" [model]="model._id" class="_id" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="name_t" [tabSequence]="0" [model]="model.name_t" class="name_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="_name" [tabSequence]="20" [model]="model._name" class="_name" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="street_t" [tabSequence]="0" [model]="model.street_t" class="street_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="street" [tabSequence]="30" [model]="model.street" class="street" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="state_t" [tabSequence]="0" [model]="model.state_t" class="state_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="state" [tabSequence]="40" [model]="model.state" class="state" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="address_t" [tabSequence]="0" [model]="model.address_t" class="address_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="address" [tabSequence]="50" [model]="model.address" class="address" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="company_t" [tabSequence]="0" [model]="model.company_t" class="company_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="company" [tabSequence]="60" [model]="model.company" class="company" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

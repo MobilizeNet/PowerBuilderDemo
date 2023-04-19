@@ -1,0 +1,59 @@
+
+.reports_w_main_report .w_main_report {
+    
+    width: 1132px;
+    height: 910px;
+    background-color: ButtonFace;
+}
+
+
+.reports_w_main_report .cb_3 {
+    
+    position: absolute;
+    left: 1024px;
+    top: 155px;
+    width: 84px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.reports_w_main_report .cb_2 {
+    
+    position: absolute;
+    left: 1024px;
+    top: 98px;
+    width: 84px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.reports_w_main_report .cb_1 {
+    
+    position: absolute;
+    left: 1020px;
+    top: 43px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.reports_w_main_report .dw_1 {
+    
+    position: absolute;
+    left: 28px;
+    top: 35px;
+    width: 974px;
+    height: 798px;
+    border-style: solid;
+}
+
+

@@ -1,0 +1,74 @@
+
+.multicontroldemo_w_dw_control_sampler_events .w_dw_control_sampler_events {
+    
+    width: 835px;
+    height: 430px;
+    background-color: ButtonFace;
+}
+
+
+.multicontroldemo_w_dw_control_sampler_events .cb_3 {
+    
+    position: absolute;
+    left: 231px;
+    top: 353px;
+    width: 156px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.multicontroldemo_w_dw_control_sampler_events .cb_2 {
+    
+    position: absolute;
+    left: 121px;
+    top: 352px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.multicontroldemo_w_dw_control_sampler_events .cb_1 {
+    
+    position: absolute;
+    left: 13px;
+    top: 350px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.multicontroldemo_w_dw_control_sampler_events .mle_log {
+    
+    position: absolute;
+    left: 517px;
+    top: 16px;
+    width: 282px;
+    height: 324px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    border-style: solid;
+}
+
+
+
+.multicontroldemo_w_dw_control_sampler_events .dw_1 {
+    
+    position: absolute;
+    left: 12px;
+    top: 14px;
+    width: 494px;
+    height: 324px;
+    border-style: solid;
+}
+
+

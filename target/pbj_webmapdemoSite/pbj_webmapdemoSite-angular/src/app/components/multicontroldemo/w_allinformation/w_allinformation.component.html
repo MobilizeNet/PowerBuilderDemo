@@ -1,0 +1,26 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_allinformation" class="multicontroldemo_w_allinformation">
+        <ng-template let-model>
+            <div class="w_allinformation">
+                <wm-command-button id="cb_1" [model]="model.cb_1" class="cb_1"></wm-command-button>
+                <wm-single-line-edit id="sle_1" [model]="model.sle_1" class="sle_1"></wm-single-line-edit>
+                <wm-command-button id="cb_insert_details" [model]="model.cb_insert_details" class="cb_insert_details"></wm-command-button>
+                <wm-command-button id="cb_get_text_details" [model]="model.cb_get_text_details" class="cb_get_text_details"></wm-command-button>
+                <wm-command-button id="cb_insertrow" [model]="model.cb_insertrow" class="cb_insertrow"></wm-command-button>
+                <wm-command-button id="cb_gettext" [model]="model.cb_gettext" class="cb_gettext"></wm-command-button>
+                <wm-command-button id="cb_clear" [model]="model.cb_clear" class="cb_clear"></wm-command-button>
+                <wm-multi-line-edit id="mle_log" [model]="model.mle_log" class="mle_log"></wm-multi-line-edit>
+                <wm-data-manager-control id="dw_additional_info" [model]="model.dw_additional_info" class="dw_additional_info">
+                    
+                </wm-data-manager-control>
+                <wm-data-manager-control id="dw_main_info" [model]="model.dw_main_info" class="dw_main_info">
+                    
+                </wm-data-manager-control>
+                <wm-group-box id="gb_main" [model]="model.gb_main" class="gb_main" [style.z-index]="-1" [dataManagerContext]="context">
+</wm-group-box>
+                <wm-group-box id="gb_details" [model]="model.gb_details" class="gb_details" [style.z-index]="-1" [dataManagerContext]="context">
+</wm-group-box>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

@@ -1,0 +1,168 @@
+
+.multicontroldemo_w_allinformation .w_allinformation {
+    
+    width: 1033px;
+    height: 616px;
+    background-color: ButtonFace;
+}
+
+
+.multicontroldemo_w_allinformation .cb_1 {
+    
+    position: absolute;
+    left: 700px;
+    top: 545px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.multicontroldemo_w_allinformation .sle_1 {
+    
+    position: absolute;
+    left: 804px;
+    top: 546px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+}
+
+
+
+.multicontroldemo_w_allinformation .cb_insert_details {
+    
+    position: absolute;
+    left: 820px;
+    top: 497px;
+    width: 75px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.multicontroldemo_w_allinformation .cb_get_text_details {
+    
+    position: absolute;
+    left: 820px;
+    top: 461px;
+    width: 75px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.multicontroldemo_w_allinformation .cb_insertrow {
+    
+    position: absolute;
+    left: 699px;
+    top: 497px;
+    width: 75px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.multicontroldemo_w_allinformation .cb_gettext {
+    
+    position: absolute;
+    left: 699px;
+    top: 460px;
+    width: 75px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.multicontroldemo_w_allinformation .cb_clear {
+    
+    position: absolute;
+    left: 922px;
+    top: 442px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.multicontroldemo_w_allinformation .mle_log {
+    
+    position: absolute;
+    left: 692px;
+    top: 12px;
+    width: 318px;
+    height: 419px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+}
+
+
+
+.multicontroldemo_w_allinformation .dw_additional_info {
+    
+    position: absolute;
+    left: 10px;
+    top: 299px;
+    width: 665px;
+    height: 282px;
+}
+
+
+
+.multicontroldemo_w_allinformation .dw_main_info {
+    
+    position: absolute;
+    left: 10px;
+    top: 12px;
+    width: 665px;
+    height: 280px;
+}
+
+
+
+.multicontroldemo_w_allinformation .gb_main {
+    
+    position: absolute;
+    left: 689px;
+    top: 436px;
+    width: 105px;
+    height: 100px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+    border-style: solid;
+}
+
+
+
+.multicontroldemo_w_allinformation .gb_details {
+    
+    position: absolute;
+    left: 810px;
+    top: 436px;
+    width: 105px;
+    height: 100px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+    border-style: solid;
+}
+
+

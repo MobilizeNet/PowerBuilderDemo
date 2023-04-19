@@ -1,0 +1,14 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_static_text" class="pbj_webmapdemo_w_static_text">
+        <ng-template let-model>
+            <div class="w_static_text">
+                
+                <wm-static-text id="st_1" [model]="model.st_1" class="st_1"></wm-static-text>
+                <wm-command-button id="cb_enable" [model]="model.cb_enable" class="cb_enable"></wm-command-button>
+                <wm-command-button id="cb_visible" [model]="model.cb_visible" class="cb_visible"></wm-command-button>
+                <wm-command-button id="cb_text" [model]="model.cb_text" class="cb_text"></wm-command-button>
+                <wm-command-button id="cb_showhide" [model]="model.cb_showhide" class="cb_showhide"></wm-command-button>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

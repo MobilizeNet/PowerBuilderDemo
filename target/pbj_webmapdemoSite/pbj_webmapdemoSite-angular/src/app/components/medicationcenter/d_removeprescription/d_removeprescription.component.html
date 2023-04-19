@@ -1,0 +1,16 @@
+<wm-freeform [model]="model" id="d_removeprescription" class="medicationcenter_d_removeprescription d_removeprescription">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-line id="l_1" [model]="model.l_1" class="l_1"></wm-line>
+			<wm-static-text id="t_1" [tabSequence]="0" [model]="model.t_1" class="t_1" [dataManagerContext]="context"></wm-static-text>
+			<wm-static-text id="id_t" [tabSequence]="0" [model]="model.id_t" class="id_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="iid" [tabSequence]="10" [model]="model.iid" class="iid" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

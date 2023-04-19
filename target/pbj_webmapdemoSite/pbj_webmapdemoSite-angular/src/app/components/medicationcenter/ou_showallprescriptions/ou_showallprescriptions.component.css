@@ -1,0 +1,19 @@
+
+.medicationcenter_ou_showallprescriptions  {
+    
+    width: 835px;
+    height: 208px;
+    background-color: ButtonFace;
+}
+
+
+.medicationcenter_ou_showallprescriptions .dw_all {
+    
+    position: absolute;
+    left: 7px;
+    top: 8px;
+    width: 752px;
+    height: 194px;
+}
+
+

@@ -1,0 +1,65 @@
+
+.notifycurrentcontrol_w_expressions .w_expressions {
+    
+    width: 539px;
+    height: 182px;
+    background-color: ButtonFace;
+}
+
+
+.notifycurrentcontrol_w_expressions .st_3 {
+    
+    position: absolute;
+    left: 294px;
+    top: 85px;
+    width: 228px;
+    height: 32px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.notifycurrentcontrol_w_expressions .st_2 {
+    
+    position: absolute;
+    left: 295px;
+    top: 32px;
+    width: 218px;
+    height: 50px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.notifycurrentcontrol_w_expressions .st_1 {
+    
+    position: absolute;
+    left: 296px;
+    top: 11px;
+    width: 291px;
+    height: 16px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.notifycurrentcontrol_w_expressions .dw_1 {
+    
+    position: absolute;
+    left: 11px;
+    top: 12px;
+    width: 277px;
+    height: 137px;
+    border-style: solid;
+}
+
+

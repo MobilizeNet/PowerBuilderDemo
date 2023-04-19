@@ -1,0 +1,13 @@
+<wm-freeform [model]="model" id="d_employee_dept_info_update_dddw" class="multicontroldemo_d_employee_dept_info_update_dddw d_employee_dept_info_update_dddw">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-dw-column id="tdname" [tabSequence]="20" [model]="model.tdname" class="tdname" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

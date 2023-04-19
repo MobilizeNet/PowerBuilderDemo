@@ -1,0 +1,27 @@
+<wm-grid [model]="model" id="dw_productsbrand" [headerTemplateDictionary]="headerTemplates" [columnsTemplateDictionary]="columnTemplates" class="pbj_webmapdemo_dw_productsbrand dw_productsbrand">
+    	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="id_t" [tabSequence]="0" [model]="model.id_t" class="id_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="name_t" [tabSequence]="0" [model]="model.name_t" class="name_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="brandid_t" [tabSequence]="0" [model]="model.brandid_t" class="brandid_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+
+    <div wmRow> 
+			<ng-template #column let-context="context">
+    <wm-dw-column id="_id" [tabSequence]="10" [model]="model._id" class="_id" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="_name" [tabSequence]="20" [model]="model._name" class="_name" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="brandid" [tabSequence]="50" [model]="model.brandid" class="brandid" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+  </div>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-grid>

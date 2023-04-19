@@ -1,0 +1,19 @@
+<wm-freeform [model]="model" id="d_searchprescription" class="medicationcenter_d_searchprescription d_searchprescription">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="patient_t" [tabSequence]="0" [model]="model.patient_t" class="patient_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="patient" [tabSequence]="10" [model]="model.patient" class="patient" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="medication_t" [tabSequence]="0" [model]="model.medication_t" class="medication_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="medication" [tabSequence]="20" [model]="model.medication" class="medication" [dataManagerContext]="context"></wm-dw-column>
+			<wm-command-button id="b_1" [tabSequence]="0" [model]="model.b_1" class="b_1" [dataManagerContext]="context"></wm-command-button>
+			<wm-static-text id="t_search" [tabSequence]="0" [model]="model.t_search" class="t_search" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="searchby" [tabSequence]="30" [model]="model.searchby" class="searchby" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

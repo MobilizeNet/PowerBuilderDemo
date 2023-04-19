@@ -1,0 +1,18 @@
+<wm-freeform [model]="model" id="d_no_data" class="multicontroldemo_d_no_data d_no_data">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="field1_t" [tabSequence]="0" [model]="model.field1_t" class="field1_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="field1" [tabSequence]="10" [model]="model.field1" class="field1" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="field2_t" [tabSequence]="0" [model]="model.field2_t" class="field2_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="field2" [tabSequence]="20" [model]="model.field2" class="field2" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="field3_t" [tabSequence]="0" [model]="model.field3_t" class="field3_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="field3" [tabSequence]="30" [model]="model.field3" class="field3" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

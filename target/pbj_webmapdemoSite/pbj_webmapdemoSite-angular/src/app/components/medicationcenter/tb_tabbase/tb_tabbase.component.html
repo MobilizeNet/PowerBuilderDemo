@@ -1,0 +1,28 @@
+<div *ngIf="model">
+    <wm-tabcontrol [model]="model" id="tb_tabbase" class="medicationcenter_tb_tabbase">
+        <wm-tabpage id="tabpage_add" [model]="model.tabpage_add" class="medicationcenter_tabpage_add">
+    <ng-template #tabpage>
+            <wm-data-manager-control id="dw_add" [model]="model.tabpage_add.dw_add" class="dw_add">
+                    
+                </wm-data-manager-control>
+
+    </ng-template>
+</wm-tabpage>
+        <wm-tabpage id="tabpage_remove" [model]="model.tabpage_remove" class="medicationcenter_tabpage_remove">
+    <ng-template #tabpage>
+            <wm-data-manager-control id="dw_remove" [model]="model.tabpage_remove.dw_remove" class="dw_remove">
+                    
+                </wm-data-manager-control>
+
+    </ng-template>
+</wm-tabpage>
+        <wm-tabpage id="tabpage_search" [model]="model.tabpage_search" class="medicationcenter_tabpage_search">
+    <ng-template #tabpage>
+            <wm-data-manager-control id="dw_search" [model]="model.tabpage_search.dw_search" class="dw_search">
+                    
+                </wm-data-manager-control>
+
+    </ng-template>
+</wm-tabpage>
+    </wm-tabcontrol>
+</div>

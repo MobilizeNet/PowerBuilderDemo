@@ -1,0 +1,33 @@
+<wm-grid [model]="model" id="d_expressions" [headerTemplateDictionary]="headerTemplates" [columnsTemplateDictionary]="columnTemplates" class="notifycurrentcontrol_d_expressions d_expressions">
+    	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="id_t" [tabSequence]="0" [model]="model.id_t" class="id_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="street_t" [tabSequence]="0" [model]="model.street_t" class="street_t" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="t_1" [tabSequence]="0" [model]="model.t_1" class="t_1" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+	<ng-template #headerColumn let-context="context">
+    <wm-static-text id="t_2" [tabSequence]="0" [model]="model.t_2" class="t_2" [dataManagerContext]="context"></wm-static-text>
+</ng-template>
+
+    <div wmRow> 
+			<ng-template #column let-context="context">
+    <wm-dw-column id="_id" [tabSequence]="10" [model]="model._id" class="_id" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-column id="street" [tabSequence]="30" [model]="model.street" class="street" [dataManagerContext]="context"></wm-dw-column>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-compute id="compute_1" [tabSequence]="0" [model]="model.compute_1" class="compute_1" [dataManagerContext]="context"></wm-dw-compute>
+</ng-template>
+			<ng-template #column let-context="context">
+    <wm-dw-compute id="compute_2" [tabSequence]="0" [model]="model.compute_2" class="compute_2" [dataManagerContext]="context"></wm-dw-compute>
+</ng-template>
+  </div>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-grid>

@@ -1,0 +1,30 @@
+<wm-freeform [model]="model" id="d_dw_control_sampler" class="multicontroldemo_d_dw_control_sampler d_dw_control_sampler">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-static-text id="name_field_t" [tabSequence]="0" [model]="model.name_field_t" class="name_field_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="name_field" [tabSequence]="10" [model]="model.name_field" class="name_field" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="age_field_t" [tabSequence]="0" [model]="model.age_field_t" class="age_field_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="age_field" [tabSequence]="20" [model]="model.age_field" class="age_field" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="description_field_t" [tabSequence]="0" [model]="model.description_field_t" class="description_field_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="description_field" [tabSequence]="30" [model]="model.description_field" class="description_field" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="date_field_t" [tabSequence]="0" [model]="model.date_field_t" class="date_field_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="date_field" [tabSequence]="40" [model]="model.date_field" class="date_field" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="event_date_field_t" [tabSequence]="0" [model]="model.event_date_field_t" class="event_date_field_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="event_date_field" [tabSequence]="50" [model]="model.event_date_field" class="event_date_field" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="salary_field_t" [tabSequence]="0" [model]="model.salary_field_t" class="salary_field_t" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="salary_field" [tabSequence]="60" [model]="model.salary_field" class="salary_field" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="flag_field" [tabSequence]="70" [model]="model.flag_field" class="flag_field" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="t_1" [tabSequence]="0" [model]="model.t_1" class="t_1" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="options_field" [tabSequence]="80" [model]="model.options_field" class="options_field" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="t_2" [tabSequence]="0" [model]="model.t_2" class="t_2" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-column id="drop_field" [tabSequence]="90" [model]="model.drop_field" class="drop_field" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="t_3" [tabSequence]="0" [model]="model.t_3" class="t_3" [dataManagerContext]="context"></wm-static-text>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

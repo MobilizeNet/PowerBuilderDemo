@@ -1,0 +1,75 @@
+
+.medicationcenter_w_login .w_login {
+    
+    width: 435px;
+    height: 198px;
+}
+
+
+.medicationcenter_w_login .cbx_admin {
+    
+}
+
+
+
+.medicationcenter_w_login .st_pass {
+    
+    position: absolute;
+    left: 174px;
+    top: 69px;
+    height: 18px;
+}
+
+
+
+.medicationcenter_w_login .st_user {
+    
+    position: absolute;
+    left: 175px;
+    top: 38px;
+    width: 43px;
+}
+
+
+
+.medicationcenter_w_login .sle_pass {
+    
+    position: absolute;
+    left: 260px;
+    top: 68px;
+    width: 140px;
+}
+
+
+
+.medicationcenter_w_login .sle_user {
+    
+    position: absolute;
+    left: 262px;
+    top: 31px;
+    width: 139px;
+}
+
+
+
+.medicationcenter_w_login .uo_okcancel {
+    
+    position: absolute;
+    left: 54px;
+    top: 127px;
+}
+
+
+
+.medicationcenter_w_login .pb_1 {
+    
+    position: absolute;
+    left: 11px;
+    top: 11px;
+    width: 141px;
+    height: 102px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+

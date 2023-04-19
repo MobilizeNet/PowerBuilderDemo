@@ -1,0 +1,23 @@
+<div id="dw_product" model="model.dw_product" class="dw_product-label">
+                <ng-template #header let-context="contextHeader">
+		</ng-template>
+                <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-dw-column id="_name" [tabSequence]="32766" [model]="model._name" class="_name" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="price" [tabSequence]="32766" [model]="model.price" class="price" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="vendor" [tabSequence]="32766" [model]="model.vendor" class="vendor" [dataManagerContext]="context"></wm-dw-column>
+			<wm-static-text id="t_4" [model]="model.t_4" class="t_4"></wm-static-text>
+			<wm-static-text id="t_3" [model]="model.t_3" class="t_3"></wm-static-text>
+			<wm-static-text id="t_2" [model]="model.t_2" class="t_2"></wm-static-text>
+			<wm-static-text id="t_1" [model]="model.t_1" class="t_1"></wm-static-text>
+			<wm-dw-column id="_id" [tabSequence]="32766" [model]="model._id" class="_id" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-compute id="compute_1" [tabSequence]="0" [model]="model.compute_1" class="compute_1" [dataManagerContext]="context"></wm-dw-compute>
+			<wm-dw-compute id="compute_2" [tabSequence]="0" [model]="model.compute_2" class="compute_2" [dataManagerContext]="context"></wm-dw-compute>
+			<wm-dw-column id="category" [tabSequence]="32766" [model]="model.category" class="category" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+                <ng-template #summary let-context="contextSummary">
+		</ng-template>
+                <ng-template #footer let-context="contextFooter">
+		</ng-template>
+                </div>

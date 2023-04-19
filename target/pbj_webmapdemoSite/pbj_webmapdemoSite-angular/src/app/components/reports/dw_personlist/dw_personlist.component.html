@@ -1,0 +1,27 @@
+<wm-freeform [model]="model" id="dw_personlist" class="reports_dw_personlist dw_personlist">
+    <ng-template #header let-context="contextHeader">
+			<wm-static-text id="t_1" [tabSequence]="0" [model]="model.t_1" class="t_1" [dataManagerContext]="context"></wm-static-text>
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-dw-column id="_name" [tabSequence]="10" [model]="model._name" class="_name" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="lastname1" [tabSequence]="20" [model]="model.lastname1" class="lastname1" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="lastname2" [tabSequence]="30" [model]="model.lastname2" class="lastname2" [dataManagerContext]="context"></wm-dw-column>
+			<wm-dw-column id="age" [tabSequence]="40" [model]="model.age" class="age" [dataManagerContext]="context"></wm-dw-column>
+			<wm-line id="l_8" [model]="model.l_8" class="l_8"></wm-line>
+			<wm-line id="l_9" [model]="model.l_9" class="l_9"></wm-line>
+			<wm-line id="l_10" [model]="model.l_10" class="l_10"></wm-line>
+			<wm-line id="l_11" [model]="model.l_11" class="l_11"></wm-line>
+			<wm-line id="l_12" [model]="model.l_12" class="l_12"></wm-line>
+			<wm-line id="l_13" [model]="model.l_13" class="l_13"></wm-line>
+			<wm-line id="l_14" [model]="model.l_14" class="l_14"></wm-line>
+			<wm-dw-column id="registration" [tabSequence]="50" [model]="model.registration" class="registration" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+			<wm-static-text id="t_2" [tabSequence]="0" [model]="model.t_2" class="t_2" [dataManagerContext]="context"></wm-static-text>
+			<wm-dw-compute id="compute_4" [tabSequence]="0" [model]="model.compute_4" class="compute_4" [dataManagerContext]="context"></wm-dw-compute>
+		</ng-template>
+</wm-freeform>

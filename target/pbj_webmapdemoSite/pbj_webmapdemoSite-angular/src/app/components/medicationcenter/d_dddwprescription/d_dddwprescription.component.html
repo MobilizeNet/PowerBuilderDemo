@@ -1,0 +1,13 @@
+<wm-freeform [model]="model" id="d_dddwprescription" class="medicationcenter_d_dddwprescription d_dddwprescription">
+    <ng-template #header let-context="contextHeader">
+		</ng-template>
+    <ng-template #details let-context="context">
+    <div wmRow> 
+			<wm-dw-column id="prescdata" [tabSequence]="32766" [model]="model.prescdata" class="prescdata" [dataManagerContext]="context"></wm-dw-column>
+    </div>
+		</ng-template>
+    <ng-template #summary let-context="contextSummary">
+		</ng-template>
+    <ng-template #footer let-context="contextFooter">
+		</ng-template>
+</wm-freeform>

@@ -1,0 +1,47 @@
+
+.medicationcenter_uo_okcancelretry  {
+    
+    width: 309px;
+    height: 46px;
+    background-color: ButtonFace;
+}
+
+
+.medicationcenter_uo_okcancelretry .cb_retry {
+    
+    position: absolute;
+    left: 115px;
+    top: 11px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.medicationcenter_uo_okcancelretry .cb_cancel {
+    
+    position: absolute;
+    left: 213px;
+    top: 12px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+
+
+.medicationcenter_uo_okcancelretry .cb_ok {
+    
+    position: absolute;
+    left: 14px;
+    top: 11px;
+    width: 88px;
+    height: 28px;
+    font-weight: normal;
+    font-family: Tahoma;
+}
+
+

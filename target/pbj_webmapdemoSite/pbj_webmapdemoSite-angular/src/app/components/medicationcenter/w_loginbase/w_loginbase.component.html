@@ -1,0 +1,14 @@
+<div *ngIf="model">
+    <wm-window [model]="model" id="w_loginbase" class="medicationcenter_w_loginbase">
+        <ng-template let-model>
+            <div class="w_loginbase">
+                <wm-checkbox id="cbx_admin" [model]="model.cbx_admin" class="cbx_admin"></wm-checkbox>
+                <wm-static-text id="st_pass" [model]="model.st_pass" class="st_pass"></wm-static-text>
+                <wm-static-text id="st_user" [model]="model.st_user" class="st_user"></wm-static-text>
+                <wm-single-line-edit id="sle_pass" [model]="model.sle_pass" class="sle_pass"></wm-single-line-edit>
+                <wm-single-line-edit id="sle_user" [model]="model.sle_user" class="sle_user"></wm-single-line-edit>
+                <app-uo-okcancelretry id="uo_okcancel" [model]="model.uo_okcancel" class="uo_okcancel wm-user-object"></app-uo-okcancelretry>
+            </div>
+        </ng-template>
+    </wm-window>
+</div>

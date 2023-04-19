@@ -1,0 +1,113 @@
+
+.medicationcenter_d_searchprescription .d_searchprescription {
+    
+}
+
+
+.medicationcenter_d_searchprescription .header {
+    
+}
+
+
+
+.medicationcenter_d_searchprescription .detail {
+    
+}
+
+
+.medicationcenter_d_searchprescription .patient_t {
+    
+    position: absolute;
+    left: 28px;
+    top: 22px;
+    height: 16px;
+    width: 70px;
+    background-color: transparent;
+}
+
+
+
+.medicationcenter_d_searchprescription .patient {
+    
+    position: absolute;
+    left: 106px;
+    top: 22px;
+    height: 19px;
+    width: 316px;
+    background-color: transparent;
+}
+
+
+
+.medicationcenter_d_searchprescription .medication_t {
+    
+    position: absolute;
+    left: 28px;
+    top: 56px;
+    height: 16px;
+    width: 70px;
+    background-color: transparent;
+}
+
+
+
+.medicationcenter_d_searchprescription .medication {
+    
+    position: absolute;
+    left: 107px;
+    top: 56px;
+    height: 19px;
+    width: 314px;
+    background-color: transparent;
+}
+
+
+
+.medicationcenter_d_searchprescription .b_1 {
+    
+    position: absolute;
+    left: 351px;
+    top: 122px;
+    height: 30px;
+    width: 70px;
+    background-color: ButtonFace;
+}
+
+
+
+.medicationcenter_d_searchprescription .t_search {
+    
+    position: absolute;
+    left: 37px;
+    top: 90px;
+    height: 16px;
+    width: 62px;
+    background-color: Window;
+}
+
+
+
+.medicationcenter_d_searchprescription .searchby {
+    
+    position: absolute;
+    left: 29px;
+    top: 113px;
+    height: 40px;
+    width: 125px;
+    background-color: transparent;
+}
+
+
+
+
+.medicationcenter_d_searchprescription .summary {
+    
+}
+
+
+
+.medicationcenter_d_searchprescription .footer {
+    
+}
+
+

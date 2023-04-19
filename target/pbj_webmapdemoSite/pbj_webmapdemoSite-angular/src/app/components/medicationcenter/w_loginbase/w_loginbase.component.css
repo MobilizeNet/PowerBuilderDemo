@@ -1,0 +1,91 @@
+
+.medicationcenter_w_loginbase .w_loginbase {
+    
+    width: 363px;
+    height: 236px;
+}
+
+
+.medicationcenter_w_loginbase .cbx_admin {
+    
+    position: absolute;
+    left: 180px;
+    top: 119px;
+    width: 147px;
+    height: 20px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.medicationcenter_w_loginbase .st_pass {
+    
+    position: absolute;
+    left: 26px;
+    top: 67px;
+    width: 88px;
+    height: 16px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.medicationcenter_w_loginbase .st_user {
+    
+    position: absolute;
+    left: 25px;
+    top: 27px;
+    width: 88px;
+    height: 16px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    background-color: ButtonFace;
+}
+
+
+
+.medicationcenter_w_loginbase .sle_pass {
+    
+    position: absolute;
+    left: 136px;
+    top: 66px;
+    width: 197px;
+    height: 21px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    border-style: solid;
+}
+
+
+
+.medicationcenter_w_loginbase .sle_user {
+    
+    position: absolute;
+    left: 135px;
+    top: 30px;
+    width: 197px;
+    height: 21px;
+    font-weight: normal;
+    font-family: Tahoma;
+    color: WindowText;
+    border-style: solid;
+}
+
+
+
+.medicationcenter_w_loginbase .uo_okcancel {
+    
+    position: absolute;
+    left: 22px;
+    top: 155px;
+}
+
+
